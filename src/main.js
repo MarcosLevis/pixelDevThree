@@ -4,7 +4,6 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 //creamos la escena
 const scene = new THREE.Scene();
 
-const light = new THREE.AmbientLight( 0x404040 ); // soft white light
 
 //la camara
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
